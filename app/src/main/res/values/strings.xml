@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BITAndroidWeatherApp</string>
+    <string name="api_key">81b225a4532ccc354f24b935262a2e54</string>
+    <string name="pittsburgh_city_code">5206379</string>
 </resources>

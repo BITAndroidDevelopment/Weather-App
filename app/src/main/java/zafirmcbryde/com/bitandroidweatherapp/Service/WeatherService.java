@@ -1,4 +1,4 @@
-package zafirmcbryde.com.bitandroidweatherapp.Remote;
+package zafirmcbryde.com.bitandroidweatherapp.Service;
 
 
 import java.util.List;
@@ -10,7 +10,7 @@ import zafirmcbryde.com.bitandroidweatherapp.Model.Main;
 
 public interface WeatherService
 {
-    @GET("/data/2.5/weather")
+    @GET("weather?")
     Call<List<Main>> getWeather(@Query("q") String cityName,
                                 @Query("APPID") String appId);
 }
